@@ -43,11 +43,10 @@ a:hover {
 position:absolute;
 top:5px;
 left:45px;
-margin-left: 10px;
-margin-left: 1px;
+margin-left: 11px;
 width:40px;
 height: 40px;
-border-radius: 50%;
+border-radius: 10%;
 border: 3px solid white;
 transition: all .5s;
 }
@@ -118,6 +117,11 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+
+
+
+
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -167,12 +171,8 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
+
 a.github {
   background-image: url(images/github.svg);
 }
