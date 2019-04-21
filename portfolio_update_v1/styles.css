@@ -39,6 +39,22 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
+ .lo{
+position:absolute;
+top:5px;
+left:45px;
+margin-left: 10px;
+margin-left: 1px;
+width:40px;
+height: 40px;
+border-radius: 50%;
+border: 3px solid white;
+transition: all .5s;
+}
+.lo:hover {
+  transform: scale(2.0) ;
+
+}
 
 .nav .name {
     display: block;
@@ -74,7 +90,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(2.0) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
